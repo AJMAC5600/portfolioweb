@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <title>Contact Me</title>
   </head>
   <body>
     <nav>
@@ -28,99 +29,109 @@
       </div>
     </nav>
     <header class="about-head">
-      <h1>About Me</h1>
+      <h1>Contact Me</h1>
     </header>
-    <div class="all-contain">
-      <section class="intro">
-        <h2>Introduction</h2>
+    <div class="contact-contain">
+      <section>
         <p>
-          Hello! I'm <b>Abhishek</b>, <br />a passionate Web Developer with a
-          keen interest in <b>Software Developer</b>.
+          If you would like to get in touch, please fill out the form below or
+          reach me at my email address.
         </p>
       </section>
 
       <section>
-        <h2>Background</h2>
+        <h2>Contact Form</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea
+          ><br /><br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+
+      <section class="mail">
+        <h2>Email</h2>
         <p>
-          As a recent graduate, I am fully fresher in the field of software
-          development. My journey started when I first discovered my passion for
-          technology in high school, where I was fascinated by how software
-          could solve real-world problems. This curiosity led me to pursue a
-          degree in computer science, where I gained hands-on experience in
-          various programming languages and development tools.
-        </p>
-        <p>
-          During my last year of studies, I worked on various academic projects,
-          including a Pharmacy Management System and a Placement Management
-          System. These projects played a crucial role in honing my programming
-          skills and deepening my understanding of software development.
+          You can also reach me directly at:
+          <a href="abhishekajeetjha@gmail.com">abhishekajeetjha@gmail.com</a>
         </p>
       </section>
-      <section class="skills">
-        <h2>Skills</h2>
+    </div>
+    <script src="./App.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Abhishek</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
         <ul>
-          <li>
-            <b>Java:</b> Proficient in writing object-oriented code and
-            developing applications.
-          </li>
-          <li>
-            <b>Python:</b> Experienced in scripting, automation, and data
-            analysis.
-          </li>
-          <li>
-            <b>Oracle SQL:</b> Skilled in database management, query
-            optimization, and data manipulation.
-          </li>
-          <li>
-            <b>HTML:</b> Competent in creating structured web pages and web
-            applications.
-          </li>
-          <li>
-            <b>CSS:</b> Knowledgeable in styling and designing responsive web
-            interfaces.
-          </li>
-          <!-- Add more skills as needed -->
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./resume.html">Resume</a></li>
+          <li><a href="./resume.html">Portfolio</a></li>
+          <li><a href="./contact.html">Contact</a></li>
         </ul>
-      </section>
-
+      </div>
+    </nav>
+    <header class="about-head">
+      <h1>Contact Me</h1>
+    </header>
+    <div class="contact-contain">
       <section>
-        <h2>Education</h2>
         <p>
-          I hold a <b>B.Sc. in Computer Science</b> from
-          <b>Mumbai University</b>. During my studies, I focused on topics such
-          as software development, database management, and web technologies. I
-          also completed key projects like the Pharmacy Management System and
-          Placement Management System, which helped me apply my knowledge in
-          real-world scenarios.
-        </p>
-      </section>
-
-      <section>
-        <h2>Experience</h2>
-        <p>
-          As a recent graduate in <b>2024</b>, I am currently undertaking an
-          apprenticeship at <b>Jspider</b>, where I am training as a
-          <b>Java Full Stack Developer</b>. This experience is helping me to
-          solidify my knowledge in both front-end and back-end development,
-          preparing me for a successful career in software development.
+          If you would like to get in touch, please fill out the form below or
+          reach me at my email address.
         </p>
       </section>
 
       <section>
-        <h2>Hobbies and Interests</h2>
-        <p>
-          When I'm not working, I enjoy reading <b>mangas</b>, playing
-          <b>tennis</b>, and exploring new areas in software development and
-          technology.
-        </p>
+        <h2>Contact Form</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="5" required></textarea
+          ><br /><br />
+
+          <input type="submit" value="Submit" />
+        </form>
       </section>
 
-      <footer>
+      <section class="mail">
+        <h2>Email</h2>
         <p>
-          Thank you for visiting my portfolio. Feel free to
-          <a href="./contact.html">get in touch</a>!
+          You can also reach me directly at:
+          <a href="abhishekajeetjha@gmail.com">abhishekajeetjha@gmail.com</a>
         </p>
-      </footer>
+      </section>
     </div>
     <script src="./App.js"></script>
   </body>
