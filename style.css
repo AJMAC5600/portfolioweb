@@ -219,7 +219,7 @@ ul li a:hover {
 }
 .image > img {
   position: relative;
-  top: 26px;
+  top: 30px;
 }
 .image {
   margin-bottom: 10px;
@@ -393,4 +393,7 @@ body > .all-contain {
   transform: scaleX(1);
   transition: 5s;
   cursor: pointer;
+}
+form {
+  margin: 0 auto;
 }
